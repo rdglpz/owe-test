@@ -1,0 +1,1774 @@
+yTS[1]<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
+yTS<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
+yTS
+var[0]<-yTS
+variable[0]=yTS
+variable(0)=yTS
+var[0]<-yTS
+var(0)<-yTS
+var(0)<-yTSyTS
+yTS
+Y[0]<-yTS
+Y[1]<-yTS
+Y[0]
+Y[0,1]
+Y[0,:]
+Y(0,:)
+Y(0)
+Y
+files
+files(1)="hola"
+files(0)="hola"
+files(0)<-"hola"
+files[0]<-"hola"
+files[i]<-"hola"
+files[0]<-"hola"
+data<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
+c(data,data)
+nd = c(data,data)
+nd(1)
+nd[1]
+nd[1,1]
+filesName = c("f1",f2)
+filesName = c("f1","f2")
+filesName
+filesName(1)
+filesName(2)
+filesName[0]="hola"
+filesName[1]="hola2"
+filesNAme
+filesName
+filesName[0]
+filesName[1]
+filesName[1]="holaA"
+filesName[2]="holaB"
+filesName[2]
+filesName[1]
+folder = "Series"#
+file[1]  = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"
+c(file[1],folder)
+file[1]+folder
+paste(file[1],folder)
+folder = "Series/"#
+file[1]  = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"
+folder = "/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/"#
+file[1]  = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"
+folder
+dir
+location = paste(folder,file[1])
+location
+y = scan(location)
+y=scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/clean10017.txt");
+location = paste(folder,file[7])
+y = scan(location)
+location
+location = paste(folder,file[7],sep="")
+location
+1:7
+for (j in  (1:7)){#
+}
+print j
+for (j in  (1:7)){#
+}
+print("j")
+for (j in  (1:7)){#
+	print(j) #
+}
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan("location");#
+}
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+}
+eps = 0.000000000000000001;#
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	y = ((y-MIN)/(MAX-MIN))+y;#
+}
+eps = 0.000000000000000001;#
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+}
+floor(length(y)*tr
+;
+floor(length(y)*tr)
+floor(length(y)*tr+1)
+yTS= y[1:floor(length(y)*tr)];#
+yVS = y[(floor(length(y)*tr)+1):length(y)];
+MIN(Y)
+MIN(y)
+y=scan(location);
+y
+MIN=min(y);#
+	MAX=max(y);
+MIN
+MAX
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+#
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	trSetSize = floor(length(y)*tr);#
+}
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+start=1;#
+#
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	finish = floor(length(y)*tr);#
+	fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+}
+library(forecast)
+library(forecast)#
+#source("makeFMatrix.R")#
+#y <- scan("demands/Normal10017.txt",skip=0);#
+#y <- scan("demands/clean10017.txt",skip=0);#
+#y <- scan("demands/sectorNormalizado78.txt",skip=0);#
+#y <- scan("demands/sector5.txt",skip=0);#
+#/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection#
+#y<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/clean10017.txt");#
+#
+folder = "/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/"#
+file[1]  = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"#
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+start=1;#
+#
+for (j in  (1:7)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	finish = floor(length(y)*tr);#
+	fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+}
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+start=1;#
+#
+for (j in  (1:1)){#
+	location = paste(folder,file[7],sep="");#
+	y=scan(location);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	finish = floor(length(y)*tr);#
+	fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+}
+(length(y)-horizon)
+(length(y)-horizon)+24
+(length(y)-horizon)-1
+Result = 0;
+model <- fit$model
+model
+fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+	model <- fit$model
+model <- fit$model
+model
+for(i in (finish+1) : (length(y)-horizon-1) ) {#
+		observation = ts(y[(i-24*8+1):i]);#
+		next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=FALSE)$mean;#
+		x = (c(ts(y[(i+1):(i+horizon)]))-c(next24));#
+		Result <- (Result + sum(abs(x)^2)^(1/2));#
+	}
+Result
+x
+next24
+observation
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=FALSE)$mean;
+next24
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=FALSE)$mean;
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=FALSE);
+next24
+y
+min(y)
+max(y)
+x
+finish+1
+(length(y)-horizon-1)
+y(length(y)-horizon-1)
+y[length(y)-horizon-1]
+i=(finish+1)
+observation = ts(y[(i-24*8+1):i]);
+observation
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=FALSE)$mean;
+next24
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+y
+y==NA
+y
+next24
+24*7
+24*7+24
+folder = "/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/"#
+file[1] = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"#
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+start=1;#
+Result = 0;#
+for (j in  (1:1)){#
+	location = paste(folder,file[j],sep="");#
+	y=scan(location);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	finish = floor(length(y)*tr);#
+	fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+	model <- fit$model#
+	for(i in (finish+1) : (length(y)-horizon-1) ) {#
+		observation = ts(y[(i-24*8+1):i]);#
+		next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;#
+		x = (c(ts(y[(i+1):(i+horizon)]))-c(next24));#
+		Result <- (Result + sum(abs(x)^2)^(1/2));#
+	}#
+}
+model <- fit$model
+(finish+1)
+i=(finish+1)
+observation = ts(y[(i-24*8+1):i]);
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+beta
+alpha
+model$alpha
+horizon
+period1
+period1=24
+gamma=model$gamma
+gamma
+omega=model$omega
+omega
+phi=model$phi
+phi
+lambda=model$lambda
+model$armethod
+model
+next24 <- dshw(y(1:50), period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24 <- dshw(y[1:50], period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+next24 <- dshw(y[1:200], period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+y[1:200]
+next24 <- dshw(y[1:200], period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+next24 <- dshw(y[1:200]+3, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+next24 <- dshw((y[1:200]+3), period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+y[0]
+y[1]
+! /usr/bin/Rscript#
+#library(R.matlab)#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#source("makeFMatrix.R")#
+#y <- scan("demands/Normal10017.txt",skip=0);#
+#y <- scan("demands/clean10017.txt",skip=0);#
+#y <- scan("demands/sectorNormalizado78.txt",skip=0);#
+#y <- scan("demands/sector5.txt",skip=0);#
+#/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection#
+#y<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/clean10017.txt");#
+#
+folder = "/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/"#
+file[1] = "sector78.txt"#
+file[2] = "sector90.txt"#
+file[3] = "sector11.txt"#
+file[4] = "sector20.txt"#
+file[5] = "sector5.txt"#
+file[6] = "sector19.txt"#
+file[7] = "clean10017.txt"#
+eps = 0.000000000000000001;#
+tr=0.7;#
+horizon = 24;#
+start=1;#
+Result = 0;#
+for (j in  (1:1)){#
+	location = paste(folder,file[j],sep="");#
+	y=scan(location,skip=0);#
+	MIN=min(y);#
+	MAX=max(y);#
+	y = ((y-MIN)/(MAX-MIN))+eps;#
+	finish = floor(length(y)*tr);#
+	fit <- dshw(y[start:finish],24,24*7,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);#
+	model <- fit$model#
+	for(i in (finish+1) : (length(y)-horizon-1) ) {#
+		observation = ts(y[(i-24*8+1):i]);#
+		next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;#
+		x = (c(ts(y[(i+1):(i+horizon)]))-c(next24));#
+		Result <- (Result + sum(abs(x)^2)^(1/2));#
+	}#
+}
+next24
+c(yTS)
+yTS
+fit <- dshw(c(yTS),24,horizon,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);
+c(yTS)
+fit <- dshw(c(yTS),24,24*7,24,alpha=NULL, beta=NULL, gamma=NULL, omega=NULL, phi=NULL,lambda=NULL, armethod=TRUE);
+observation
+next24 <- dshw(observation, period1=24, period2=24*7,h= horizon, alpha=model$alpha, beta=model$beta, gamma=model$gamma,omega=model$omega, phi=model$phi, lambda=model$lambda,armethod=TRUE)$mean;
+next24
+observations
+install.packages(c("MuMIn", "lme4", "optparse", "rgrass7"))
+install.packages(c("rgrass7"))
+install.packages(c("futures"))
+file.choose()
+mydata$date = as.POSIXct(strptime(mydata$date, format = "%d/%m/%Y %H:%M", "Etc/GMT+6"))
+mydata = read.csv(file.choose(), header = TRUE)
+mydata$date = as.POSIXct(strptime(mydata$date, format = "%d/%m/%Y %H:%M", "Etc/GMT+6"))
+mydata2 <- selectByDate(mydata,  hour = 6:18)
+selectByDa
+selectByDate
+install.packages('openair')
+library(openair)
+mydata2 <- selectByDate(mydata,  hour = 6:18)
+mydata = read.csv(file.choose(), header = TRUE)
+mydata$date = as.POSIXct(strptime(mydata$date, format = "%d/%m/%Y %H:%M", "Etc/GMT+6"))
+mydata2 <- selectByDate(mydata,  hour = 6:18)
+mydata2
+mydata2$MELUN
+mydata
+install.packages(c("MuMIn", "lme4", "optparse", "rgrass7"))
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in (1+3*0):(length(files)-0*(length(files)+1+3))){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=3, stationary=FALSE, seasonal=FALSE,ic = c("aic"));#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=3, stationary=FALSE, seasonal=FALSE,ic = c("aic"));#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in (1+3*0):(length(files)-0*(length(files)+1+3))){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=3, stationary=FALSE, seasonal=FALSE,ic = c("aic"));#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in (1+3*0):(length(files)-0*(length(files)+1+3))){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=3, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=FALSE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in (1+3*0):(length(files)-0*(length(files)+1+3))){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+ix
+length(files)
+1:length(files)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in 1:length(files)){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+    print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in 1:length(files)){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+#    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+for (ix in 1:length(files)){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+ix_end = 1
+ix in 1:ix_end
+ix_end = 1
+1:ix_end
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_w.csv", #
+  "o3_FAC.csv", #
+  "o3_MER.csv", #
+  "o3_MON.csv",#
+  "o3_PED.csv",#
+  "o3_SAG.csv", #
+  "o3_TAH.csv", #
+  "o3_TLA.csv", #
+  "o3_UIZ.csv",#
+  "o3_XAL.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+ix_end = 1#
+for (ix in 1:ix_end){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+ix_end = 1#
+for (ix in 1:ix_end){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.5;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+print("*******************")
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.5;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){#
+  print("*******************")	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.7;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){#
+  print("*******************")	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.6;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){#
+  print("*******************")	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+nf*tr
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.6;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){#
+  print("*******************")	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}
+elements <- read.csv(file.path("f:", "Macintosh HD⁩ ▸ ⁨Usuarios⁩ ▸ ⁨rodrigolopez⁩ ▸ ⁨git⁩ ▸ ⁨Mexico Queretaro Ligthing Pollution Analysis⁩/figsmooth.csv"))
+elements <- read.csv(file.path("f:", "Macintosh HD⁩ ▸ ⁨Usuarios⁩ ▸ ⁨rodrigolopez⁩ ▸ ⁨git⁩ ▸ ⁨Mexico Queretaro Ligthing Pollution Analysis⁩/figsmoot
+)
+))
+q
+qq
+asd
+))))
+\
+asdf
+asd
+fa
+sdf;
+asdf
+library(marima)
+install.packages("marima")
+library(marima)
+library(vars)
+install.packages("vars")
+install.packages("varma")
+citation(package = "stats")
+citation(package = "forecast")
+! /usr/bin/Rscript#
+#
+# http://robjhyndman.com/hyndsight/forecast4/#
+library(forecast)#
+#
+#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
+#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+#
+#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
+files = c(#
+  "o3_CUA_y.csv", #
+  "o3_FAC_y.csv", #
+  "o3_MER_y.csv", #
+  "o3_MON_y.csv",#
+  "o3_PED_y.csv",#
+  "o3_SAG_y.csv", #
+  "o3_TAH_y.csv", #
+  "o3_TLA_y.csv", #
+  "o3_UIZ_y.csv",#
+  "o3_XAL_y.csv"#
+)#
+path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
+path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
+tr= 0.6;#
+nlags = c(5,6,22,23,26,27,28,29,30,31)#
+nlags = c(22)#
+nlags=c(21:21)#
+nlags=c(1:17)#
+aarima=TRUE#
+p=3#
+q=max(nlags)#
+a<-rep(0,p+q)#
+a[p+q]=NA#
+#
+a[p + nlags] = NA#
+#
+#a[p + nlags+1] = NA#
+#
+#a[p+q]=NA#
+#a[q-1]=NA#
+#a[q-2]=NA#
+#
+s = 0#
+ix_end = length(files)#
+#
+for (ix in 1:ix_end){#
+  print("*******************")	#
+  print(paste(ix, ":", files[c(ix)]))#
+  pth = paste(path,files[c(ix)], sep = "")#
+  Y <- read.csv(file=pth, header=FALSE, sep=",")#
+  y = Y$V2#
+  nf = length(y)#
+  yTS= y[1:floor(nf*tr)];#
+  if (aarima == TRUE){#
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
+    print(fit$coef)#
+    print(fit)#
+#   print(paste("range",max(y)-min(y)))#
+  }else{#
+    print("Manual Parameter Selection")#
+ #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
+#    yhat = predict(model, 1)#
+#    yhat$pred[1]#
+    for (t in floor(nf*tr):(nf-1)){ #
+      yprev = y[1:t]#
+      ynext = y[t+1]#
+      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
+      yh_0 = predict(model,1)#
+      yh_1 = yh_0$pred[1]#
+      print("pred")#
+      print(yh_1)#
+      print("real")#
+      print(ynext)#
+      s = s + ((yh_1-ynext)^2)^0.5#
+    }#
+    n = length(floor(nf*tr) :(nf-1))#
+    print(s/ n)#
+  }#
+}#
+#notes#
+#
+#p=0#
+#q=31#
+#a <- rep(0, p+q+1)#
+#predict(model, 3)
+setwd
+setwd="Macintosh HD⁩/Usuarios⁩/rodrigolopez⁩/⁨git⁩/oweg-sample⁩/⁨owe-test⁩/⁨owe-test⁩"
+setwd("Macintosh HD⁩/Usuarios⁩/rodrigolopez⁩/⁨git⁩/oweg-sample⁩/⁨owe-test⁩/⁨owe-test⁩")
+setwd("/Users/rodrigolopez/git/oweg-sample⁩")
+setwd("/Users/rodrigolopez/git/oweg-sample⁩/")
