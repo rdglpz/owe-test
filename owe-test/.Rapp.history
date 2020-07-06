@@ -1,93 +1,3 @@
-yTS[1]<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
-yTS<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
-yTS
-var[0]<-yTS
-variable[0]=yTS
-variable(0)=yTS
-var[0]<-yTS
-var(0)<-yTS
-var(0)<-yTSyTS
-yTS
-Y[0]<-yTS
-Y[1]<-yTS
-Y[0]
-Y[0,1]
-Y[0,:]
-Y(0,:)
-Y(0)
-Y
-files
-files(1)="hola"
-files(0)="hola"
-files(0)<-"hola"
-files[0]<-"hola"
-files[i]<-"hola"
-files[0]<-"hola"
-data<-scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/sector8TS.txt")+0.0000001;
-c(data,data)
-nd = c(data,data)
-nd(1)
-nd[1]
-nd[1,1]
-filesName = c("f1",f2)
-filesName = c("f1","f2")
-filesName
-filesName(1)
-filesName(2)
-filesName[0]="hola"
-filesName[1]="hola2"
-filesNAme
-filesName
-filesName[0]
-filesName[1]
-filesName[1]="holaA"
-filesName[2]="holaB"
-filesName[2]
-filesName[1]
-folder = "Series"#
-file[1]  = "sector78.txt"#
-file[2] = "sector90.txt"#
-file[3] = "sector11.txt"#
-file[4] = "sector20.txt"#
-file[5] = "sector5.txt"#
-file[6] = "sector19.txt"#
-file[7] = "clean10017.txt"
-c(file[1],folder)
-file[1]+folder
-paste(file[1],folder)
-folder = "Series/"#
-file[1]  = "sector78.txt"#
-file[2] = "sector90.txt"#
-file[3] = "sector11.txt"#
-file[4] = "sector20.txt"#
-file[5] = "sector5.txt"#
-file[6] = "sector19.txt"#
-file[7] = "clean10017.txt"
-folder = "/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/"#
-file[1]  = "sector78.txt"#
-file[2] = "sector90.txt"#
-file[3] = "sector11.txt"#
-file[4] = "sector20.txt"#
-file[5] = "sector5.txt"#
-file[6] = "sector19.txt"#
-file[7] = "clean10017.txt"
-folder
-dir
-location = paste(folder,file[1])
-location
-y = scan(location)
-y=scan("/Users/rodrigolopez/Documents/GIT/predictionRBF/Selection/clean10017.txt");
-location = paste(folder,file[7])
-y = scan(location)
-location
-location = paste(folder,file[7],sep="")
-location
-1:7
-for (j in  (1:7)){#
-}
-print j
-for (j in  (1:7)){#
-}
 print("j")
 for (j in  (1:7)){#
 	print(j) #
@@ -1682,93 +1592,88 @@ install.packages("vars")
 install.packages("varma")
 citation(package = "stats")
 citation(package = "forecast")
-! /usr/bin/Rscript#
+ls
+ls()
+getwd()
+ls
+forecast_wknd_fx
+forecast_wknd_fx.r
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+Y
+pth
+pth="~/git/pweg-sample/owe-test/owe-test/"
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+pth="~/git/pweg-sample/owe-test/owe-test/sample/OW1_montlhyAVG from 1994-01-31 00/00/00 to 1999-11-30 00/00/00 .csv"
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+pth="~/git/pweg-sample/owe-test/owe-test/sample/sample.csv"
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+pth="~/git/oweg-sample/owe-test/owe-test/sample/sample.csv"
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+Y
+library(forecast)
+Y <- read.csv(file=pth, header=FALSE, sep=",")
+Y
+Y(1)
+Y
+Y <- read.csv(file=pth, header=TRUE, sep=",")
+Y
+Y('XAL')
+Y[]'XAL']
+Y['XAL']
+plot(Y['XAL'])
+(Y['XAL'])
+Y%XAL
+Y$XAL
+y = Y$XAL
+y
+nf = length(y)
+nf
+yTS= y[1:floor(nf*tr)];
+yTS
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=TRUE);
+fit
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+y = Y$CUA
+y
+yTS
+yTS= y[1:floor(nf*tr)];
+yTS
+tr
+nf
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+y = Y$FAC
+y
+yTS= y[1:floor(nf*tr)];
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+y = Y$MER
+yTS= y[1:floor(nf*tr)];
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=TRUE);
+fit
+Y.columns
+Y.column
+Y.columns
+Y
+y = Y$MON#
 #
-# http://robjhyndman.com/hyndsight/forecast4/#
-library(forecast)#
+yTS= y[1:floor(nf*tr)]#
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+Y <- read.csv(file=pth, header=TRUE, sep=",")#
+tr = 0.6#
 #
-#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";#
-#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html#
+y = Y$PED#
 #
-#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")#
-files = c(#
-  "o3_CUA_y.csv", #
-  "o3_FAC_y.csv", #
-  "o3_MER_y.csv", #
-  "o3_MON_y.csv",#
-  "o3_PED_y.csv",#
-  "o3_SAG_y.csv", #
-  "o3_TAH_y.csv", #
-  "o3_TLA_y.csv", #
-  "o3_UIZ_y.csv",#
-  "o3_XAL_y.csv"#
-)#
-path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"#
-path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"#
-tr= 0.6;#
-nlags = c(5,6,22,23,26,27,28,29,30,31)#
-nlags = c(22)#
-nlags=c(21:21)#
-nlags=c(1:17)#
-aarima=TRUE#
-p=3#
-q=max(nlags)#
-a<-rep(0,p+q)#
-a[p+q]=NA#
+yTS= y[1:floor(nf*tr)]#
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
+y = Y$TLA#
 #
-a[p + nlags] = NA#
-#
-#a[p + nlags+1] = NA#
-#
-#a[p+q]=NA#
-#a[q-1]=NA#
-#a[q-2]=NA#
-#
-s = 0#
-ix_end = length(files)#
-#
-for (ix in 1:ix_end){#
-  print("*******************")	#
-  print(paste(ix, ":", files[c(ix)]))#
-  pth = paste(path,files[c(ix)], sep = "")#
-  Y <- read.csv(file=pth, header=FALSE, sep=",")#
-  y = Y$V2#
-  nf = length(y)#
-  yTS= y[1:floor(nf*tr)];#
-  if (aarima == TRUE){#
-    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);#
-    print(fit$coef)#
-    print(fit)#
-#   print(paste("range",max(y)-min(y)))#
-  }else{#
-    print("Manual Parameter Selection")#
- #   model = arima(yTS, order = c(p, 1, q), fixed = c(a))#
-#    yhat = predict(model, 1)#
-#    yhat$pred[1]#
-    for (t in floor(nf*tr):(nf-1)){ #
-      yprev = y[1:t]#
-      ynext = y[t+1]#
-      model = arima(yprev, transform.pars = FALSE,order = c(p, 1L, q), fixed = c(a))#
-      yh_0 = predict(model,1)#
-      yh_1 = yh_0$pred[1]#
-      print("pred")#
-      print(yh_1)#
-      print("real")#
-      print(ynext)#
-      s = s + ((yh_1-ynext)^2)^0.5#
-    }#
-    n = length(floor(nf*tr) :(nf-1))#
-    print(s/ n)#
-  }#
-}#
-#notes#
-#
-#p=0#
-#q=31#
-#a <- rep(0, p+q+1)#
-#predict(model, 3)
-setwd
-setwd="Macintosh HD⁩/Usuarios⁩/rodrigolopez⁩/⁨git⁩/oweg-sample⁩/⁨owe-test⁩/⁨owe-test⁩"
-setwd("Macintosh HD⁩/Usuarios⁩/rodrigolopez⁩/⁨git⁩/oweg-sample⁩/⁨owe-test⁩/⁨owe-test⁩")
-setwd("/Users/rodrigolopez/git/oweg-sample⁩")
-setwd("/Users/rodrigolopez/git/oweg-sample⁩/")
+yTS= y[1:floor(nf*tr)]#
+fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+fit
