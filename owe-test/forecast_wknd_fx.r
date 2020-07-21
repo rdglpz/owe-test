@@ -3,30 +3,17 @@
 # http://robjhyndman.com/hyndsight/forecast4/
 library(forecast)
 
-#folder = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/";
-#https://stat.ethz.ch/R-manual/R-devel/library/stats/html/arima.html
+setwd("/Users/rodrigo/Programs/git/oweg-sample/owe-test/owe-test")
 
-#setwd("/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts")
-files = c(
-  "o3_CUA_y.csv", 
-  "o3_FAC_y.csv", 
-  "o3_MER_y.csv", 
-  "o3_MON_y.csv",
-  "o3_PED_y.csv",
-  "o3_SAG_y.csv", 
-  "o3_TAH_y.csv", 
-  "o3_TLA_y.csv", 
-  "o3_UIZ_y.csv",
-  "o3_XAL_y.csv"
-)
-path = "/home/rodrigo/Dropbox/wknd-fx python notebooks/weekend-fx/"
-path = "/Users/rodrigolopez/Dropbox/Paper weekend effect global/predictability_scripts/"
-tr= 0.6;
-nlags = c(5,6,22,23,26,27,28,29,30,31)
-nlags = c(22)
-nlags=c(21:21)
-nlags=c(1:17)
-aarima=TRUE
+f = read.csv(file="sample/sample.csv", header=TRUE, sep=",")
+sitenames = colnames(f)[2:ncol(f)]
+
+
+
+
+tr= 0.8
+
+aarima = TRUE
 p=3
 q=max(nlags)
 a<-rep(0,p+q)
@@ -34,26 +21,25 @@ a[p+q]=NA
 
 a[p + nlags] = NA
 
-#a[p + nlags+1] = NA
-
-#a[p+q]=NA
-#a[q-1]=NA
-#a[q-2]=NA
 
 s = 0
-ix_end = length(files)
+ix_end = length(sitenames)
 
 for (ix in 1:ix_end){
-  print("*******************")	
-  print(paste(ix, ":", files[c(ix)]))
-  pth = paste(path,files[c(ix)], sep = "")
-  Y <- read.csv(file=pth, header=FALSE, sep=",")
-  y = Y$V2
+  print("*******************")
+  sn = sitenames[ix]
+
+  print(sn)
+
+#  print(paste(ix, ":", files[c(ix)]))
+  
+  y <- (f[sn])
+  y <- c(y[[1]])
   
   nf = length(y)
   yTS= y[1:floor(nf*tr)];
   if (aarima == TRUE){
-    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE);
+    fit<-auto.arima(yTS, max.p=50, max.q=50 ,max.P = 50, max.Q = 50, max.d=1, stationary=FALSE, seasonal=FALSE, stepwise = TRUE);
     print(fit$coef)
     print(fit)
 #   print(paste("range",max(y)-min(y)))
